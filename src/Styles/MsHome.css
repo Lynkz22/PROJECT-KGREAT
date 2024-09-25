@@ -1,0 +1,116 @@
+.sectionMsHome {
+  width: 85%;
+  margin: 6rem auto 12rem auto;
+  /* min-height: 50rem; */
+  display: grid;
+  justify-content: space-between;
+  align-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.divMsHome {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  background-color: #fbf0f1;
+  padding: 3rem 1rem 3rem 1rem;
+  border-radius: 20px;
+}
+
+.divMsHome:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.05);
+}
+
+.msHeading {
+  font-size: 1.1rem;
+  font-family: "Poppins", cursive;
+  padding-bottom: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.msText {
+  text-align: start;
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.msTextList {
+  list-style: none;
+}
+
+.msTextList li {
+  gap: 5px;
+}
+
+.msSpan {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fa-circle {
+  font-size: 0.4rem;
+}
+
+.msSpan i {
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 1500px) {
+  .sectionMsHome {
+    width: 80%;
+  }
+
+  .msHeading {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .msText {
+    font-size: 1.2rem;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sectionMsHome {
+    max-width: 85%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: none;
+  }
+
+  .msText {
+    text-align: start;
+    font-size: 0.9rem;
+  }
+
+  .divMsHome {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .divMsHome {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    background-color: #fbf0f1;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    border-radius: 20px;
+  }
+
+  .msHeading {
+    font-size: 0.7rem;
+    padding-bottom: 0.4rem;
+    letter-spacing: 1.5px;
+  }
+
+  .msText {
+    font-size: 0.6rem;
+    line-height: 15px;
+  }
+}

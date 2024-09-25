@@ -1,0 +1,58 @@
+.sectionServicesAbout {
+  width: 90%;
+  margin: auto;
+}
+
+.divServicesAbout {
+  width: 100%;
+  text-align: start;
+}
+
+.divServicesAbout h1 {
+  font-size: 1.2rem;
+  color: #180e7f;
+  margin-bottom: 0.5rem;
+}
+
+.divServicesAbout-1 {
+  text-align: start;
+  font-size: 0.9;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 1500px) {
+  .divServicesAbout h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .divServicesAbout-1 {
+    text-align: start;
+    font-size: 1.2rem;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sectionServicesAbout {
+    width: 85%;
+    margin: auto;
+  }
+
+  .divServicesAbout h1 {
+    font-size: 1.2rem;
+    color: #180e7f;
+    margin-bottom: 0.5rem;
+  }
+
+  .divServicesAbout h1 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .divServicesAbout-1 {
+    text-align: start;
+    font-size: 0.6rem;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:wght@500&family=Poppins:wght@100;400&display=swap");
+
+.divIntroduction {
+  width: 95%;
+  margin: 8rem auto 8rem auto;
+  /* margin: auto; */
+}
+
+.introHeading {
+  font-size: 1.1rem;
+  text-align: start;
+  margin: 0 0 1rem 0;
+  font-family: "Poppins", cursive;
+  letter-spacing: 3px;
+}
+
+.divIntroText {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.introText {
+  font-size: 0.9rem;
+  text-align: start;
+  line-height: 25px;
+}
+
+@media screen and (min-width: 1500px) {
+  .introHeading {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+    letter-spacing: 3px;
+  }
+
+  .introText {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .divIntroduction {
+    width: 90%;
+  }
+
+  .introHeading {
+    font-size: 1.4rem;
+  }
+
+  .divIntroText {
+    width: 100%;
+  }
+
+  .introText {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .introHeading {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+}

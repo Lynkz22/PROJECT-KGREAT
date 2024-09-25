@@ -1,0 +1,207 @@
+.sectionServicesHome {
+  min-height: 100vh;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 2fr;
+  gap: 10px;
+  margin-top: 5rem;
+  padding: 7% 2% 7% 2%;
+}
+
+.divServicesHome {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.servicesImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  opacity: 1;
+  box-shadow: 0 0 20px 1px #cfb095;
+}
+
+.divservicesHomeText {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+}
+
+.divservicesHomeText:hover {
+  opacity: 1;
+}
+
+.divservicesHomeText > * {
+  transform: translateY(50px);
+  transition: transform 2s;
+}
+
+.divservicesHomeText:hover > * {
+  transform: translateY(0px);
+}
+
+.servicesHomeText {
+  font-size: 0.9rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+  letter-spacing: 3px;
+  font-family: "Poppins", serif;
+  text-transform: uppercase;
+}
+
+.divServicesHome-1 {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  display: grid;
+  grid-template-rows: 90% 10%;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.servicesImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.divServLink {
+  height: 100%;
+  margin: auto;
+}
+
+.divServicesLink {
+  text-decoration: none;
+  background-color: #ff2400;
+}
+
+.servicesLink {
+  width: 50%;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff2400;
+  padding: 5px 0 5px 0;
+  font-size: 0.9rem;
+  margin: auto 0 auto 0;
+}
+
+.servicesLink:hover {
+  scale: 1.05;
+  transition: 2s ease-out;
+}
+
+.linkArrow {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: auto;
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 1500px) {
+  .sectionServicesHome {
+    gap: 15px;
+  }
+
+  .servicesHomeText {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+  }
+
+  .servicesLink {
+    width: 50%;
+    padding: 10px 0 10px 0;
+    font-size: 1.2rem;
+  }
+
+  .linkArrow {
+    font-size: 2rem;
+    margin-bottom: 3px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sectionServicesHome {
+    min-height: 70vh;
+  }
+
+  .servicesHomeText {
+    font-size: 1.1vw;
+    letter-spacing: 3px;
+  }
+
+  .servicesLink {
+    width: 100%;
+    padding: 2px 0 2px 0;
+    font-size: 1.9vw;
+  }
+
+  .linkArrow {
+    font-size: 4vw;
+    margin-bottom: 3px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sectionServicesHome {
+    min-height: 10vh;
+    width: 70%;
+    display: grid;
+    grid-template-columns: none;
+    gap: 0.5rem;
+    margin-top: 5rem;
+  }
+
+  .divServicesHome {
+    width: 100%;
+    height: 4rem;
+  }
+
+  .divservicesHomeText {
+    opacity: 1;
+  }
+
+  .divservicesHomeText > * {
+    transform: translateY(0px);
+  }
+
+  .servicesHomeText {
+    font-size: 0.7;
+    letter-spacing: 3px;
+    line-height: 8px;
+  }
+
+  .divServicesHome-1 {
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 90% 10%;
+    gap: 10px;
+  }
+
+  .servicesLink {
+    width: 50%;
+    background-color: #ff2400;
+    padding: 5px 0 5px 0;
+    font-size: 0.6rem;
+    margin: auto 0 auto 0;
+  }
+
+  .linkArrow {
+    display: none;
+  }
+}

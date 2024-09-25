@@ -1,0 +1,149 @@
+.sectionProjectsHome {
+  max-width: 90%;
+  margin: 0 auto 10rem auto;
+}
+
+.divProjectsHome {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto 2rem auto;
+}
+
+.headingProjectsHome {
+  letter-spacing: 4px;
+  color: #000;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.textProjectsHome {
+  font-size: 0.9rem;
+}
+
+.divProjectsHome-1 {
+  display: grid;
+  max-width: 90%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: start;
+  column-gap: 1em;
+  row-gap: 1em;
+}
+
+.projectsHomeContainer {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  border-radius: 10%;
+  opacity: 1;
+  /* transform: translateY(100px); */
+  transition: all 1.5s ease-in-out;
+}
+
+.projectHomeImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  opacity: 1;
+  box-shadow: 0 0 20px 1px #cfb095;
+}
+
+.projectsHomeText {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+}
+
+.projectsHomeText:hover {
+  opacity: 1;
+}
+
+.projectsHomeText > * {
+  transform: translateY(50px);
+  transition: transform 2s;
+}
+
+.projectsHomeText:hover > * {
+  transform: translateY(0px);
+}
+
+.projectsHomeText-1 {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+  letter-spacing: 3px;
+}
+
+@media screen and (min-width: 1600px) {
+  .projectsHomeContainer {
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .headingProjectsHome {
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+  }
+
+  .textProjectsHome {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sectionProjectsHome {
+    max-width: 100%;
+  }
+
+  .headingProjectsHome {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .textProjectsHome {
+    font-size: 0.9rem;
+  }
+
+  .divProjectsHome-1 {
+    max-width: 90%;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+  }
+
+  .projectsHomeContainer {
+    height: 150px;
+  }
+
+  .projectsHomeText {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .headingProjectsHome {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+  }
+
+  .textProjectsHome {
+    font-size: 0.6rem;
+  }
+
+  .projectsHomeContainer {
+    height: 100px;
+  }
+}

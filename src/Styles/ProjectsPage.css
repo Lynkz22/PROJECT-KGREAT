@@ -1,0 +1,176 @@
+.sectionProjectsPage {
+  width: 100%;
+}
+
+.divProjectsPicturesInfo {
+  font-size: 1.1rem;
+  text-align: start;
+  margin-left: 1rem;
+  line-height: 1.8rem;
+}
+
+.divProjectsPicturesInfo h2 {
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+  color: #180e7f;
+  text-transform: capitalize;
+}
+
+.divProjectsPicturesInfo span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.projectsPictures {
+  width: 95%;
+  margin: 2rem auto 0 auto;
+}
+
+.sectionIndividualProjects {
+  position: relative;
+  height: 100%;
+  margin: auto;
+  max-width: 100%;
+}
+
+.projectImages {
+  width: 100%;
+  height: 50vh;
+  padding: 0.7rem;
+  margin: auto;
+}
+
+.projectImages-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.divProjectsButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 95%;
+  margin: auto;
+}
+
+.projectsButtonLeft {
+  background-color: transparent;
+  border: none;
+}
+
+.projectsButtonLeft span {
+  color: #fff;
+  background-color: transparent;
+  font-size: 2.5rem;
+}
+
+.projectsButtonRight {
+  background-color: transparent;
+  border: none;
+}
+
+.projectsButtonRight span {
+  color: #fff;
+  background-color: transparent;
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 1500px) {
+  .projectsButtonLeft span {
+    font-size: 3rem;
+  }
+  .projectsButtonRight span {
+    font-size: 3rem;
+  }
+
+  .divProjectsPicturesInfo h2 {
+    font-size: 1.4rem;
+  }
+
+  .divProjectsPicturesInfo span {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projectsPictures {
+    max-width: 100%;
+    margin: 5rem auto 0 auto;
+  }
+
+  .sectionIndividualProjects {
+    max-width: 90%;
+  }
+
+  .divProjectsPicturesInfo h2 {
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+  }
+
+  .divProjectsPicturesInfo span {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .divProjectsPicturesInfo {
+    font-size: 0.8rem;
+  }
+
+  .projectImages {
+    width: 100%;
+    height: 25vh;
+    padding: 0.2rem;
+    margin: auto;
+  }
+
+  .projectImages-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .divProjectsButtons {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .divProjectsPicturesInfo h2 {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+
+  .divProjectsPicturesInfo span {
+    font-size: 0.6rem;
+  }
+
+  .divProjectsPicturesInfo {
+    font-size: 0.6rem;
+    margin-left: 1rem;
+    margin-bottom: 10px;
+    line-height: 10px;
+  }
+
+  .projectsButtonLeft span {
+    font-size: 1.5rem;
+  }
+
+  .projectsButtonRight span {
+    font-size: 1.5rem;
+  }
+
+  .projectsPictures {
+    margin: 3rem auto 0 auto;
+    width: 98%;
+  }
+
+  .projectImages {
+    height: 20vh;
+  }
+}

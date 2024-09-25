@@ -1,0 +1,105 @@
+.sectionTeamMembers {
+  width: 90%;
+  margin: 10rem auto 0 auto;
+  text-align: start;
+}
+
+.divTeamMembersHeading {
+  font-size: 1.2rem;
+  color: #180e7f;
+  margin-bottom: 1rem;
+}
+
+.teamMembers {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.teamMembers-1 {
+  display: grid;
+}
+
+.teamMembers-1 h1 {
+  font-size: 1rem;
+}
+
+.teamMembersName p {
+  font-size: 0.9rem;
+  color: #180e7f;
+  margin-bottom: 1rem;
+}
+
+.divTeamMembersImage {
+  height: 7rem;
+  width: 7rem;
+  margin: auto;
+}
+
+.teamMembersImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.teamMembersName {
+  text-align: center;
+}
+
+.teamMembersText {
+  width: 50%;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 800px) {
+  .sectionTeamMembers {
+    width: 90%;
+  }
+
+  .divTeamMembersHeading {
+    font-size: 0.9rem;
+    color: #180e7f;
+    margin-bottom: 0.5rem;
+  }
+
+  .divTeamMembersImage {
+    height: 10rem;
+    width: 10rem;
+    /* margin: auto; */
+  }
+
+  .teamMembersImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .teamMembers-1 h1 {
+    font-size: 0.8rem;
+  }
+
+  .teamMembersName p {
+    font-size: 0.7rem;
+    color: #180e7f;
+    margin-bottom: 0;
+  }
+
+  .teamMembers {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .teamMembersName {
+    text-align: start;
+  }
+
+  .teamMembersText {
+    width: 90%;
+    font-size: 0.6rem;
+  }
+}
