@@ -2,6 +2,8 @@ import React from "react";
 import "../Styles/TeamMembers.css";
 import TeamMembersOkunola from "./TeamMembersOkunola";
 import TeamMembersKoya from "./TeamMembersKoya";
+import TeamMembersFemi from "./TeamMembersFemi";
+import TeamMembersAkanni from "./TeamMembersAkanni";
 
 const TeamMembers = () => {
   return (
@@ -12,6 +14,8 @@ const TeamMembers = () => {
         </div>
         <TeamMembersOkunola />
         <TeamMembersKoya />
+        <TeamMembersFemi />
+        <TeamMembersAkanni />
       </section>
     </>
   );

@@ -42,10 +42,12 @@
 @media screen and (max-width: 800px) {
   .divIntroduction {
     width: 90%;
+    margin: 5rem auto 5rem auto;
+
   }
 
   .introHeading {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .divIntroText {
@@ -54,5 +56,6 @@
 
   .introText {
     font-size: 0.6rem;
+    line-height: 20px;
   }
 }

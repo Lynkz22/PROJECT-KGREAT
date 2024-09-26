@@ -1,120 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Playfair+Display:wght@500&family=Poppins:wght@100;400&display=swap");
 
-/* 
-.divMvpmHome {
-  display: grid;
-  align-content: start;
-  gap: 0.8rem;
-  margin-top: 2rem;
-  max-width: 100%;
-  padding: 0 0.5rem 0 0.5rem;
-}
 
-.divMvpmHome-1 {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10rem 0 10rem;
-  max-width: 100%;
-}
-
-.divMvpmHome h2 {
-  font-size: 1.4rem;
-  letter-spacing: 4px;
-  color: #fff;
-}
-
-.divMvpmHome p {
-  font-size: 1.1rem;
-  color: #fff;
-}
-
-.icons {
-  font-size: 2rem;
-  color: #180e7f;
-}
-
-.divMvpmHome-2 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.buttonMvpmHome {
-  cursor: pointer;
-}
-
-.buttonMvpmHome p {
-  font-size: 1.2rem;
-  color: #fff;
-  letter-spacing: 3px;
-  padding: 0.4rem 1.8rem 0.4rem 1.8rem;
-  background-color: #180e7f;
-}
-
-.buttonMvpmHome p:hover {
-  background-color: #fd0203;
-  transition: 1.5s ease-in-out;
-  scale: 1.05;
-}
-
-@media screen and (min-width: 1500px) {
-  .sectionMvpmHome {
-    height: 80vh;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .sectionMvpmHome {
-    display: grid;
-    width: 100%;
-  }
-
-  .divMvpmHome {
-    display: grid;
-    align-content: start;
-    gap: 0.2rem;
-    margin: auto;
-    width: 80%;
-  }
-
-  .divMvpmHome-1 {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-  }
-
-  .divMvpmHome h2 {
-    font-size: 1.2em;
-    letter-spacing: 4px;
-  }
-
-  .divMvpmHome p {
-    font-size: 0.9rem;
-  }
-
-  .buttonMvpmHome p {
-    font-size: 1rem;
-    letter-spacing: 3px;
-    padding: 0.5rem 1.8rem 0.5rem 1.8rem;
-  }
-} */
-
-/* @media screen and (max-width: 500px) {
-  .sectionMvpmHome {
-    margin: 5rem auto 5rem auto;
-  }
-
-  .divMvpmHome h2 {
-    font-size: 1.1em;
-  }
-
-  .buttonMvpmHome p {
-    font-size: 0.9rem;
-    letter-spacing: 3px;
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-  }
-} */
 
 .sectionMvpm {
   max-width: 85%;
@@ -193,7 +79,7 @@
   .divMvpm {
     padding: 2rem 3rem 1rem 3rem;
   }
-  
+
   .divMvpm-1 {
     padding: 2rem 2rem 1rem 2rem;
   }
@@ -207,7 +93,7 @@
     padding-bottom: 1rem;
     letter-spacing: 2px;
   }
-  
+
   .mvpmText {
     text-align: start;
     font-size: 1.2rem;
@@ -218,14 +104,18 @@
 @media screen and (max-width: 850px) {
   .sectionMvpm {
     max-width: 85%;
-    margin: 5rem auto;
+    margin: 1rem auto;
     display: grid;
     grid-template-columns: none;
   }
 
+  .mvpmHeading {
+    font-size: 0.7rem;
+  }
+
   .mvpmText {
     text-align: start;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
 
   .divMvpm {

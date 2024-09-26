@@ -10,17 +10,20 @@
 
 .divServicesAbout h1 {
   font-size: 1.2rem;
-  color: #180e7f;
+  color: #000;
   margin-bottom: 0.5rem;
 }
 
 .divServicesAbout-1 {
   text-align: start;
-  font-size: 0.9;
   line-height: 35px;
 }
 
-@media screen and (max-width: 1500px) {
+.divServicesAbout-1 p {
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 1500px) {
   .divServicesAbout h1 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
@@ -46,13 +49,13 @@
   }
 
   .divServicesAbout h1 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-bottom: 0.5rem;
   }
 
-  .divServicesAbout-1 {
+  .divServicesAbout-1 p {
     text-align: start;
     font-size: 0.6rem;
-    line-height: 25px;
+    line-height: 20px;
   }
 }

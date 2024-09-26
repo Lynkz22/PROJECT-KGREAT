@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../Styles/main.css";
 import { NavbarLinks } from "../Components/NavbarLinks";
 import { Link } from "react-router-dom";
-// import Logo from "../Components/Assets/Logo-1.png";
+import Logo from "../Components/Assets/LandingPageBcg/GreatLogo.png";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -14,7 +14,7 @@ class Navbar extends Component {
       <nav className="navbarItems">
         <div>
           {/* <h1 className="navbarLogo">Amnon</h1> */}
-          {/* <img className="navbarLogoImage" alt="Image1" src={Logo} /> */}
+          <img className="navbarLogoImage" alt="Image1" src={Logo} />
         </div>
 
         <div className="menuIcons" onClick={this.handleClick}>

@@ -1,18 +1,18 @@
 import React from "react";
-import okunola from "../Components/Assets/Beach-House/BH1.jpg";
+import EngrK from "../Components/Assets/TeamMembers/EngrK.jpg";
 
 const TeamMembersOkunola = () => {
   return (
     <>
       <div className="teamMembers">
         <div className="teamMembers-1">
-          {/* <div className="divTeamMembersImage">
+          <div className="divTeamMembersImage">
             <img
               className="teamMembersImage"
-              alt="Olabode Saheed"
-              src={okunola}
+              alt="Okunola Kunle"
+              src={EngrK}
             />
-          </div> */}
+          </div>
           <div className="teamMembersName">
             <h1>
               Okunola <br />

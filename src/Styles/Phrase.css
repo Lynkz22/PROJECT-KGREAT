@@ -90,6 +90,11 @@
 }
 
 @media screen and (max-width: 500px) {
+  .sectionPhrase {
+    height: 50vh;
+
+  }
+
   .textPhrase-1 {
     font-size: 0.8rem;
   }

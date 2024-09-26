@@ -57,13 +57,13 @@ const Footer = () => {
             <span class="material-symbols-outlined" id="footerArrowIcon">
               phone_in_talk
             </span>
-            <p className="footerLinkText">+234 808 111 6632</p>
+            <p className="footerLinkText">+234 813 409 6977</p>
           </Link>
           <Link to="/Contact" className="footerLink">
             <span class="material-symbols-outlined" id="footerArrowIcon">
               phone_in_talk
             </span>
-            <p className="footerLinkText">+234 808 111 6632</p>
+            <p className="footerLinkText">+234 813 156 7055</p>
           </Link>
           <Link to="/Contact" className="footerLink">
             <span class="material-symbols-outlined" id="footerArrowIcon">
@@ -76,7 +76,12 @@ const Footer = () => {
           <Link to="/About" className="footerLink">
             <i className="fa-brands fa-facebook-square"></i>
           </Link>
-          <Link to="/About" className="footerLink">
+          <Link
+            to="https://www.instagram.com/kgreat.engineering1/"
+            className="footerLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa-brands fa-instagram-square"></i>
           </Link>
         </div>

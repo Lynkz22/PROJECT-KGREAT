@@ -83,11 +83,6 @@
     grid-template-columns: none;
   }
 
-  .msText {
-    text-align: start;
-    font-size: 0.9rem;
-  }
-
   .divMsHome {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   }

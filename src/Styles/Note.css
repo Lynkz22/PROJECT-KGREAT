@@ -63,7 +63,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   .sectionNote {
     height: 60vh;
   }

@@ -16,6 +16,11 @@ import ProjPicGmunu from "./ProjPicGmunu";
 import ProjPicMixedUse from "./ProjPicMixedUse";
 import ProjPicOdemela from "./ProjPicOdemela";
 import ProjPicTagboOzor from "./ProjPicTagboOzor";
+import ProjPicRemoelling from "./ProjPicRemoelling";
+import ProjPicClinicRemodelling from "./ProjPicClinicRemodelling";
+import ProjPicExclusiveNet from "./ProjPicExclusiveNet";
+import ProjPicMarieStopes from "./ProjPicMarieStopes";
+import ProjPicMarieStopesAsaba from "./ProjPicMarieStopesAsaba";
 
 const ProjectsPage = () => {
   return (
@@ -86,6 +91,11 @@ const ProjectsPage = () => {
         <ProjPicTagboOzor />
         <ProjPicBourdillon />
         <ProjPicMaryamCourt />
+        <ProjPicRemoelling />
+        <ProjPicClinicRemodelling />
+        <ProjPicExclusiveNet />
+        <ProjPicMarieStopes />
+        <ProjPicMarieStopesAsaba />
       </section>
     </>
   );

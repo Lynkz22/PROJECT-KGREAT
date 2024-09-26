@@ -13,7 +13,7 @@ const ServicesAbout = () => {
           transition={{ duration: 2 }}
           viewport={{ once: true }}
         >
-          <h1>OUR SERVICES</h1>
+          <h1 className="servicesHeading">OUR SERVICES</h1>
         </motion.div>
         <div className="divServicesAbout-1">
           <p>Consulting</p>
