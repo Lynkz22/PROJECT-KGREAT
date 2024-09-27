@@ -28,9 +28,7 @@ const TeamMembersOkunola = () => {
             as an electrical design engineer in a building services firm, where
             he has supervised and managed numerous high-end projects across
             various sectors, including hospitality, educational facilities,
-            residential, and office buildings. At K Great Engineering, Adekunle
-            is responsible for overseeing staff activities, providing training,
-            and supervising project supervisors.
+            residential, and office buildings. 
           </p>
         </div>
       </div>

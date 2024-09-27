@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 import "../Styles/ProjectsHome.css";
 import BeachHouse from "../Components/Assets/Beach-House/BH1.jpg";
 import TCNMaryland from "../Components/Assets/TCN-Maryland/TCN1.jpg";
-import Bourdillon from "../Components/Assets/Bourdillon/BOU1.jpg";
+import Miami from "../Components/Assets/Miami-Apartments/MA1.webp";
 import MaryamsCourt from "../Components/Assets/Maryam-Court/MC1.jpg";
 import Periwinkle from "../Components/Assets/Periwinkle/Prwk1.jpg";
 import Odemela from "../Components/Assets/Odemela/OC1.jpg";
-
 
 const ProjectsHome = () => {
   return (
@@ -65,15 +64,14 @@ const ProjectsHome = () => {
                 <img
                   className="projectHomeImage"
                   alt="ProjectsImage"
-                  src={Bourdillon}
+                  src={Miami}
                 />
                 <div className="projectsHomeText">
-                  <p className="projectsHomeText-1">BOURDILLON</p>
+                  <p className="projectsHomeText-1">MIAMI APARTMENTS</p>
                 </div>
               </div>
             </Link>
           </div>
-
           <div>
             <Link to="/Projects">
               <div className="projectsHomeContainer">

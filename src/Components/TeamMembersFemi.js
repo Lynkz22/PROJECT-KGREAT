@@ -15,8 +15,8 @@ const TeamMembersFemi = () => {
           </div>
           <div className="teamMembersName">
             <h1>
-              Odubiyi Oluwafemi
-              <br /> Emmanuel
+              Odubiyi <br />
+              Oluwafemi Emmanuel
             </h1>
             <p>Partner</p>
           </div>

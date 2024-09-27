@@ -21,7 +21,6 @@ const ServicesAbout = () => {
           <p>Design Solutions</p>
           <p>Engineering Drawings</p>
           <p>Building information Modeling (BIM) and 3D Visualization</p>
-          <p>Planning and Approval Applications</p>
           <p>Mechanical and Electrical Systems</p>
           <p>Project Supervision</p>
           <p>Engineering Drawings</p>

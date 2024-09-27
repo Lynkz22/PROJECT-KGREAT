@@ -19,10 +19,11 @@
 
 .teamMembers-1 {
   display: grid;
+  width: 20%;
 }
 
 .teamMembersName h1 {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .teamMembersName p {
@@ -54,13 +55,11 @@
 }
 
 @media screen and (max-width: 800px) {
-
   .sectionTeamMembers {
     width: 90%;
     margin: 5rem auto 5rem auto;
     text-align: start;
   }
-
 
   .divTeamMembersHeading {
     font-size: 0.8rem;
@@ -81,18 +80,17 @@
   }
 
   .teamMembers-1 h1 {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     text-align: center;
-
   }
 
   .teamMembersName p {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     color: #180e7f;
     margin-bottom: 0;
     text-align: center;
   }
-/* 
+  /* 
   .teamMembers {
     max-width: 100%;
     display: flex;

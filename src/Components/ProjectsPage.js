@@ -8,8 +8,6 @@ import ProjPicBeachHouse from "./ProjPicBeachHouse";
 import ProjPicTCNMaryland from "./ProjPicTCNMaryland";
 import ProjPicMiami from "./ProjPicMiami";
 import ProjPicLugardTerraces from "./ProjPicLugardTerraces";
-import ProjPicCallisCourt1 from "./ProjPicCallicCourt-2";
-import ProjPicCallisCourt2 from "./ProjPicCallisCourt-1";
 import ProjPicDejDeluxe from "./ProjPicDejDeluxe";
 import ProjPicDestinyApartments from "./ProjPicDestinyApartments";
 import ProjPicGmunu from "./ProjPicGmunu";
@@ -82,8 +80,6 @@ const ProjectsPage = () => {
         <ProjPicTCNMaryland />
         <ProjPicLugardTerraces />
         <ProjPicDestinyApartments />
-        <ProjPicCallisCourt1 />
-        <ProjPicCallisCourt2 />
         <ProjPicDejDeluxe />
         <ProjPicGmunu />
         <ProjPicMixedUse />

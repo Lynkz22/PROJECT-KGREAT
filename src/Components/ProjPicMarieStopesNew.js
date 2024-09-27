@@ -3,11 +3,13 @@ import "../Styles/ProjectsPage.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import CallisCourtImage1 from "../Components/Assets/Callis-Court-2/CCL1.jpg";
-import CallisCourtImage2 from "../Components/Assets/Callis-Court-2/CCL2.jpg";
-import CallisCourtImage3 from "../Components/Assets/Callis-Court-2/CCL3.jpg";
+import MarieImage1 from "../Components/Assets/MarieStopesNew/1.png";
+import MarieImage2 from "../Components/Assets/MarieStopesNew/2.png";
+import MarieImage3 from "../Components/Assets/MarieStopesNew/3.png";
+import MarieImage4 from "../Components/Assets/MarieStopesNew/4.png";
+import MarieImage5 from "../Components/Assets/MarieStopesNew/5.png";
 
-export class ProjPicCallisCourt2 extends Component {
+export class ProjPicMarieStopesNew extends Component {
   constructor(props) {
     super(props);
     this.next = this.next.bind(this);
@@ -34,8 +36,8 @@ export class ProjPicCallisCourt2 extends Component {
       <>
         <section className="projectsPictures">
           <div className="divProjectsPicturesInfo">
-            <h2>Callis Court</h2>
-            {/* <span>PROJECT LOCATION:</span> */}
+            <h2>Marie Stopes Clinic Renovation</h2>
+            <span>PROJECT LOCATION: Abuja</span>
           </div>
           <section className="sectionIndividualProjects">
             <Slider
@@ -46,22 +48,36 @@ export class ProjPicCallisCourt2 extends Component {
               <div className="projectImages" key={1}>
                 <img
                   className="projectImages-1"
-                  alt="Callis Court Images"
-                  src={CallisCourtImage1}
+                  alt="Marie Stopes Images"
+                  src={MarieImage1}
                 />
               </div>
               <div className="projectImages" key={2}>
                 <img
                   className="projectImages-1"
-                  alt="Callis Court Images"
-                  src={CallisCourtImage2}
+                  alt="Marie Stopes Images"
+                  src={MarieImage2}
                 />
               </div>
               <div className="projectImages" key={3}>
                 <img
                   className="projectImages-1"
-                  alt="Callis Court Images"
-                  src={CallisCourtImage3}
+                  alt="Marie Stopes Images"
+                  src={MarieImage3}
+                />
+              </div>
+              <div className="projectImages" key={4}>
+                <img
+                  className="projectImages-1"
+                  alt="Marie Stopes Images"
+                  src={MarieImage4}
+                />
+              </div>
+              <div className="projectImages" key={5}>
+                <img
+                  className="projectImages-1"
+                  alt="Marie Stopes Images"
+                  src={MarieImage5}
                 />
               </div>
             </Slider>
@@ -82,4 +98,4 @@ export class ProjPicCallisCourt2 extends Component {
   }
 }
 
-export default ProjPicCallisCourt2;
+export default ProjPicMarieStopesNew;
