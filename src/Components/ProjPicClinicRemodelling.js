@@ -8,6 +8,11 @@ import ClinicRenImage2 from "../Components/Assets/ClinicRen/CR2.png";
 import ClinicRenImage3 from "../Components/Assets/ClinicRen/CR3.png";
 import ClinicRenImage4 from "../Components/Assets/ClinicRen/CR4.png";
 import ClinicRenImage5 from "../Components/Assets/ClinicRen/CR5.png";
+import ClinicRenImage6 from "../Components/Assets/ClinicRen/CR1.png";
+import ClinicRenImage7 from "../Components/Assets/ClinicRen/CR2.png";
+import ClinicRenImage8 from "../Components/Assets/ClinicRen/CR3.png";
+import ClinicRenImage9 from "../Components/Assets/ClinicRen/CR4.png";
+import ClinicRenImage10 from "../Components/Assets/ClinicRen/CR5.png";
 
 export class ProjPicClinicRemodelling extends Component {
   constructor(props) {
@@ -37,7 +42,7 @@ export class ProjPicClinicRemodelling extends Component {
         <section className="projectsPictures">
           <div className="divProjectsPicturesInfo">
             <h2>Clinic Renovation</h2>
-            <span>PROJECT LOCATION: Utako, Abuja</span>
+            <span>PROJECT LOCATION: Lagos</span>
           </div>
           <section className="sectionIndividualProjects">
             <Slider
@@ -63,7 +68,7 @@ export class ProjPicClinicRemodelling extends Component {
                 <img
                   className="projectImages-1"
                   alt="Clinic Renovation Images"
-                  src={ClinicRenImage1}
+                  src={ClinicRenImage3}
                 />
               </div>
               <div className="projectImages" key={4}>
@@ -78,6 +83,41 @@ export class ProjPicClinicRemodelling extends Component {
                   className="projectImages-1"
                   alt="Clinic Renovation Images"
                   src={ClinicRenImage5}
+                />
+              </div>
+              <div className="projectImages" key={6}>
+                <img
+                  className="projectImages-1"
+                  alt="Clinic Remodelling Images"
+                  src={ClinicRenImage6}
+                />
+              </div>
+              <div className="projectImages" key={7}>
+                <img
+                  className="projectImages-1"
+                  alt="Clinic Remodelling Images"
+                  src={ClinicRenImage7}
+                />
+              </div>
+              <div className="projectImages" key={8}>
+                <img
+                  className="projectImages-1"
+                  alt="Clinic Remodelling Images"
+                  src={ClinicRenImage8}
+                />
+              </div>
+              <div className="projectImages" key={9}>
+                <img
+                  className="projectImages-1"
+                  alt="Clinic Remodelling Images"
+                  src={ClinicRenImage9}
+                />
+              </div>
+              <div className="projectImages" key={10}>
+                <img
+                  className="projectImages-1"
+                  alt="Clinic Remodelling Images"
+                  src={ClinicRenImage10}
                 />
               </div>
             </Slider>

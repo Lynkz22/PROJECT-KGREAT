@@ -73,9 +73,9 @@ const Footer = () => {
           </Link>
         </div>
         <div className="footerSocialLinks">
-          <Link to="/About" className="footerLink">
+          {/* <Link to="/About" className="footerLink">
             <i className="fa-brands fa-facebook-square"></i>
-          </Link>
+          </Link> */}
           <Link
             to="https://www.instagram.com/kgreat.engineering1/"
             className="footerLink"

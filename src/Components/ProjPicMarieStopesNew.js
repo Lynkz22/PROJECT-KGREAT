@@ -3,11 +3,15 @@ import "../Styles/ProjectsPage.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import MarieImage1 from "../Components/Assets/MarieStopesNew/1.png";
-import MarieImage2 from "../Components/Assets/MarieStopesNew/2.png";
-import MarieImage3 from "../Components/Assets/MarieStopesNew/3.png";
-import MarieImage4 from "../Components/Assets/MarieStopesNew/4.png";
-import MarieImage5 from "../Components/Assets/MarieStopesNew/5.png";
+import MarieImage1 from "../Components/Assets/MarieStopesNew/NW1.png";
+import MarieImage2 from "../Components/Assets/MarieStopesNew/NW2.png";
+import MarieImage3 from "../Components/Assets/MarieStopesNew/NW3.png";
+import MarieImage4 from "../Components/Assets/MarieStopesNew/NW4.png";
+import MarieImage5 from "../Components/Assets/MarieStopesNew/NW5.png";
+import MarieImage6 from "../Components/Assets/MarieStopesNew/NW6.png";
+import MarieImage7 from "../Components/Assets/MarieStopesNew/NW7.png";
+import MarieImage8 from "../Components/Assets/MarieStopesNew/NW8.png";
+import MarieImage9 from "../Components/Assets/MarieStopesNew/NW9.png";
 
 export class ProjPicMarieStopesNew extends Component {
   constructor(props) {
@@ -78,6 +82,34 @@ export class ProjPicMarieStopesNew extends Component {
                   className="projectImages-1"
                   alt="Marie Stopes Images"
                   src={MarieImage5}
+                />
+              </div>
+              <div className="projectImages" key={6}>
+                <img
+                  className="projectImages-1"
+                  alt="Marie Stopes Images"
+                  src={MarieImage6}
+                />
+              </div>
+              <div className="projectImages" key={7}>
+                <img
+                  className="projectImages-1"
+                  alt="Marie Stopes Images"
+                  src={MarieImage7}
+                />
+              </div>
+              <div className="projectImages" key={8}>
+                <img
+                  className="projectImages-1"
+                  alt="Marie Stopes Images"
+                  src={MarieImage8}
+                />
+              </div>
+              <div className="projectImages" key={9}>
+                <img
+                  className="projectImages-1"
+                  alt="Marie Stopes Images"
+                  src={MarieImage9}
                 />
               </div>
             </Slider>
