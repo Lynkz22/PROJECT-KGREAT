@@ -270,12 +270,13 @@
 
   .navbarItems {
     width: 100%;
-    height: 5rem;
-    border-radius: 0 0 13px 13px;
+    height: 3.5rem;
+    border-radius: 13px 13px;
     position: fixed;
     top: 0;
     left: 50%;
     transform: translate(-50%);
+    margin-top: 0.5rem;
   }
 
   .navMenu {

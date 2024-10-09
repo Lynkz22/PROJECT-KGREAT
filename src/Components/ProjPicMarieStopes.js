@@ -37,7 +37,7 @@ export class ProjPicMarieStopes extends Component {
         <section className="projectsPictures">
           <div className="divProjectsPicturesInfo">
             <h2>Marie Stopes Clinic</h2>
-            <span>PROJECT LOCATION: Agungi, Lagos</span>
+            <span>PROJECT LOCATION: Lekki Agungi, Lagos</span>
           </div>
           <section className="sectionIndividualProjects">
             <Slider

@@ -42,7 +42,7 @@ export class ProjPicClinicRemodelling extends Component {
         <section className="projectsPictures">
           <div className="divProjectsPicturesInfo">
             <h2>Clinic Renovation</h2>
-            <span>PROJECT LOCATION: Lagos</span>
+            <span>PROJECT LOCATION: Abuja</span>
           </div>
           <section className="sectionIndividualProjects">
             <Slider

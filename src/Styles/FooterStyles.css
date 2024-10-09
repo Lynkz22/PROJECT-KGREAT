@@ -24,18 +24,17 @@
 }
 
 .footerSocialLinks i {
-  color: #fff;
-  font-size: 2rem;
+  color: #ff2400;
+  font-size: 2.5rem;
   margin-left: 1rem;
 }
 
 .footerSocialLinks i:hover {
-  color: #ff2400;
+  color: #fff;
   transition: 1s ease-in-out;
 }
 
 .bottom {
-  /* width: 70%; */
   padding-top: 2rem;
   text-align: start;
   display: flex;
@@ -92,6 +91,16 @@
   color: #ff2400;
 }
 
+.divMaps {
+  width: 600;
+  height: 450;
+}
+
+.maps {
+  width: 600;
+  height: 450;
+}
+
 @media screen and (min-width: 1500px) {
   .footer {
     padding: 4rem 2rem 4rem 6rem;
@@ -135,6 +144,10 @@
     width: 100%;
     padding-top: 0.5rem;
     gap: 4rem;
+  }
+
+  .divMaps {
+    width: 80%;
   }
 }
 

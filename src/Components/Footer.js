@@ -69,7 +69,13 @@ const Footer = () => {
             <span class="material-symbols-outlined" id="footerArrowIcon">
               mail
             </span>
-            <p className="footerLinkText">kgreat.engineering1@gmail.com</p>
+            <p className="footerLinkText">kunle@kgreatengineering.com</p>
+          </Link>
+          <Link to="/Contact" className="footerLink">
+            <span class="material-symbols-outlined" id="footerArrowIcon">
+              mail
+            </span>
+            <p className="footerLinkText">admin@kgreatengineering.com</p>
           </Link>
         </div>
         <div className="footerSocialLinks">

@@ -11,6 +11,7 @@
   background-color: #180e7f;
   padding: 2em;
   min-height: 65vh;
+  position: relative;
 }
 
 .divContactFormHeading {
@@ -79,12 +80,18 @@
 }
 
 .sendit {
-  width: 10em;
-  background: red;
+  background: #ff2400;
   color: #ffffff;
   border: none;
   cursor: pointer;
   padding: 10px;
+  text-align: start;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto 0 auto;
+  border-radius: 20px;
 }
 
 .sendit:hover {
@@ -93,8 +100,16 @@
   transition: 1s;
 }
 
+.senditnow {
+  text-decoration: none;
+  background-color: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
 .sendit-1 {
-  font-size: 1.8em;
+  font-size: 1em;
+  text-align: start;
 }
 
 textarea {
@@ -112,7 +127,7 @@ textarea {
 }
 
 ::-webkit-scrollbar-track {
-  background: lightgray;
+  background: transparent;
   border-radius: 10px;
 }
 
@@ -120,8 +135,30 @@ textarea {
   color: white;
 }
 
-.divMaps {
+.message {
   width: 100%;
+  position: absolute;
+  bottom: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.message .success {
+  font-size: 0.9rem;
+  color: #fff;
+  position: absolute;
+  animation: buttons 0.3s linear;
+  display: none;
+}
+
+.divMaps {
+  width: 600;
+  height: 450;
+}
+
+.maps {
+  width: 600px;
+  height: 450px;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -146,10 +183,10 @@ textarea {
     margin-bottom: 4em;
   }
 
-  .divMaps {
+  /* .divMaps {
     width: 90%;
     margin: auto;
-  }
+  } */
 
   .divContactFormHeading {
     font-size: 1.1em;
@@ -179,11 +216,30 @@ textarea {
     width: 7em;
   }
 
-  .sendit-1 {
+  /* .sendit-1 {
     font-size: 1.2em;
-  }
+  } */
 
   .divContactForm {
     min-height: 35vh;
+  }
+
+  .senditnow {
+    text-decoration: none;
+    background-color: none;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  .divMaps {
+    width: 80%;
+    margin: auto;
+  }
+
+  .maps {
+    max-width: 100%;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 5rem;
   }
 }

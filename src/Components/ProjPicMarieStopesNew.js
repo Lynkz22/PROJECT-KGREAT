@@ -41,7 +41,7 @@ export class ProjPicMarieStopesNew extends Component {
         <section className="projectsPictures">
           <div className="divProjectsPicturesInfo">
             <h2>Marie Stopes Clinic Renovation</h2>
-            <span>PROJECT LOCATION: Abuja</span>
+            <span>PROJECT LOCATION: Asaba</span>
           </div>
           <section className="sectionIndividualProjects">
             <Slider
